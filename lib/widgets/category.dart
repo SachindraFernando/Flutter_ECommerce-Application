@@ -6,6 +6,7 @@ class Category extends StatelessWidget {
     return Container(
       height: 200,
       child: ListView(
+      scrollDirection: Axis.horizontal,
       children: <Widget>[
         
         Container(
