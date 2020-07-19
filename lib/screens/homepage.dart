@@ -1,5 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import '../widgets/category.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Text('Categories', style: TextStyle(fontSize: 40),),
-          //Category(),
+          Category(),
           Text('Products', style: TextStyle(fontSize: 40),),
           //AllProducts(),
         ],
