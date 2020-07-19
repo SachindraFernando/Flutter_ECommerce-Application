@@ -8,32 +8,7 @@ class Category extends StatelessWidget {
       child: ListView(
       scrollDirection: Axis.horizontal,
       children: <Widget>[
-        
-        Container(
-          child: Column(
-            children: <Widget>[
-              Icon(Icons.book),
-              Text("Book")
-            ],
-            )
-        ),
-        Container(
-          child: Column(
-            children: <Widget>[
-              Icon(Icons.book),
-              Text("Book")
-            ],
-            )
-        ),
-        Container(
-          child: Column(
-            children: <Widget>[
-              Icon(Icons.book),
-              Text("Book")
-            ],
-            )
-        )
-
+        Category
       ],
       ),
     );
