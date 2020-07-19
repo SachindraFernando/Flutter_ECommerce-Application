@@ -15,7 +15,24 @@ class Category extends StatelessWidget {
               Text("Book")
             ],
             )
+        ),
+        Container(
+          child: Column(
+            children: <Widget>[
+              Icon(Icons.book),
+              Text("Book")
+            ],
+            )
+        ),
+        Container(
+          child: Column(
+            children: <Widget>[
+              Icon(Icons.book),
+              Text("Book")
+            ],
+            )
         )
+
       ],
       ),
     );
