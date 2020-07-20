@@ -23,7 +23,7 @@ CategoryCard(this.icon, this.name);
         ),
         width: 100,
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(10.0),
         child: Column(
         children: <Widget>[
           icon,
