@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ecom/widgets/all_pdts.dart';
 import '../widgets/category.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
           SizedBox(height: 10,),
           Category(),
           Text('Products', style: TextStyle(fontSize: 40),),
-          //AllProducts(),
+          AllProducts(),
         ],
       ),
     );
