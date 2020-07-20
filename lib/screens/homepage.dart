@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       drawer: Drawer(),
       appBar: AppBar(
-        title: Text('Flutter E Com'),
+        title: Text('E Com'),
       ),
       body: ListView(
         children: <Widget>[
