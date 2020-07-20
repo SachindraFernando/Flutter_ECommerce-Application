@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ecom/screens/pdt_detail_screen.dart';
 
 class PdtItem extends StatelessWidget {
   final String name;
@@ -7,7 +8,15 @@ class PdtItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => DetailPage(
+              title: name,
+            ))
+            );
+      },
+    child: Padding(
       padding: const EdgeInsets.all(15.0),
       child: GridTile(
       child: Image.network(imageUrl),
@@ -16,6 +25,7 @@ class PdtItem extends StatelessWidget {
         trailing: IconButton(icon: Icon(Icons.shopping_cart),
          onPressed: null),
          backgroundColor: Colors.black87,
+      ),
       ),
     ),
     );
