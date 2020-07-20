@@ -11,6 +11,7 @@ class AllProducts extends StatelessWidget {
       
       return GridView.builder(
         physics:ScrollPhysics(),
+        shrinkWrap: true,
         itemCount: pdts.length,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount
         (crossAxisCount:2),

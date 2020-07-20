@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecom/widgets/all_pdts.dart';
-import '../widgets/category.dart';
+import 'package:flutter_ecom/widgets/home_body.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -10,17 +9,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('E Com'),
       ),
-      body: ListView(
-        children: <Widget>[
-          SizedBox(height: 10,),
-          Center(child: Text('Categories', style: TextStyle(fontSize: 
-          20, fontWeight: FontWeight.bold),)),
-          SizedBox(height: 10,),
-          Category(),
-          Text('Products', style: TextStyle(fontSize: 40),),
-          AllProducts(),
-        ],
-      ),
+      body: HomePage()
     );
   }
 }
