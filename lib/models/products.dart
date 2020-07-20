@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 
-class Product 
+class Product with ChangeNotifier 
 {
   final String id;
   final String category; 
@@ -19,8 +19,8 @@ class Product
 
 }
 
-class Products{
-  List<Product> items=[
+class Products with ChangeNotifier{
+  List<Product>  _items=[
 
 Product(
       id: '1',
@@ -80,4 +80,7 @@ Product(
     ),
 
   ];
+  List<Product> get items{
+    return[..._items];
+  }
 }
