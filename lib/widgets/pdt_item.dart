@@ -7,8 +7,17 @@ class PdtItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridTile(
+    return Padding(
+      padding: const EdgeInsets.all(15.0),
+      child: GridTile(
       child: Image.network(imageUrl),
+      footer: GridTileBar(
+        title: Text(name),
+        trailing: IconButton(icon: Icon(Icons.shopping_cart),
+         onPressed: null),
+         backgroundColor: Colors.black87,
+      ),
+    ),
     );
   }
 }

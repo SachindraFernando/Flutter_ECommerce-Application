@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('E Com'),
       ),
-      body: HomePage()
+      body: HomeBody()
     );
   }
 }
