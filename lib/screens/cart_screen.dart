@@ -63,7 +63,7 @@ class _CheckoutButtonState extends State<CheckoutButton> {
           : () async {
               await Provider.of<Orders>(context, listen: false).addOrder(
                   widget.cart.items.values.toList(), widget.cart.totalAmount);
-              widget.cart.clear();
+              //widget.cart.clear();
             },
     );
   }

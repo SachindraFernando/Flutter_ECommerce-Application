@@ -10,7 +10,8 @@ class Product with ChangeNotifier
   final double price;
 
   Product(
-    {@required this.id, 
+    {
+    @required this.id, 
     @required this.category, 
     @required this.name, 
     @required this.description, 
