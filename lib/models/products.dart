@@ -25,9 +25,9 @@ class Products with ChangeNotifier{
 
 Product(
       id: '1',
-      name: 'Art Of The Deal',
+      name: 'Ladies Frocks',
       imgUrl:
-          'https://upload.wikimedia.org/wikipedia/en/1/1c/Trump_the_art_of_the_deal.jpg',
+          '/images/assests/img2.jpg',
       price: 5,
       category: 'Business',
       description:
@@ -35,9 +35,9 @@ Product(
     ),
     Product(
       id: '2',
-      name: 'Rich Dad Poor Dad',
+      name: 'Ladies Skirts',
       imgUrl:
-          'https://upload.wikimedia.org/wikipedia/en/b/b9/Rich_Dad_Poor_Dad.jpg',
+          '/images/assests/img3.jpg',
       price: 5,
       category: 'Business',
       description:
@@ -45,9 +45,9 @@ Product(
     ),
     Product(
       id: '3',
-      name: 'PS4 Dual Shock',
+      name: 'Ladies Shorts',
       imgUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/5/59/DualShock_4.jpg',
+          '/images/assests/img1.jpg',
       price: 4,
       category: 'Fiction',
       description:
@@ -55,9 +55,9 @@ Product(
     ),
     Product(
       id: '4',
-      name: 'GTA V',
+      name: 'Ladies T Shirts',
       imgUrl:
-          'https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png',
+          '/images/assests/img4.jpeg',
       price: 4,
       category: 'Romantc',
       description: 'Best selling poular free roaming game',

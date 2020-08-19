@@ -9,25 +9,26 @@ class Category extends StatelessWidget {
       child: ListView(
       scrollDirection: Axis.horizontal,
       children: <Widget>[
+        
         CategoryCard(
-          Icon(Icons.book, size:40,),
-          'Book'
+          Icon(Icons.face, size:40,),
+          'Ladies'
         ),
         CategoryCard(
-          Icon(Icons.computer, size:40,),
-          'Laptops'
-        ),
-        CategoryCard(
-          Icon(Icons.videogame_asset, size:40,),
-          'Games'
-        ),
-        CategoryCard(
-          Icon(Icons.videocam, size:40,),
-          'Movies'
+          Icon(Icons.child_care, size:40,),
+          'Children'
         ),
         CategoryCard(
           Icon(Icons.watch, size:40,),
           'Watches'
+        ),
+        CategoryCard(
+          Icon(Icons.people, size:40,),
+          'Men'
+        ),
+        CategoryCard(
+          Icon(Icons.book, size:40,),
+          'Book'
         ),
         CategoryCard(
           Icon(Icons.weekend, size:40,),

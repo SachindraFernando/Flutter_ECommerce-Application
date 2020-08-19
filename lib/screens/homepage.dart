@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       drawer: Drawer(),
       appBar: AppBar(
-        title: Text('Flutter E-com'),
+        title: Text('Wenis E-Com'),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.shopping_cart, size: 30,), onPressed: ()=>Navigator.of(context).pushNamed(CartScreen.routeName))
         ],
